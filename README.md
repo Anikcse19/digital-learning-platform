@@ -1,5 +1,5 @@
 # Digital Learning Platform
-My project Live site link https://elegant-mayer-f2a396.netlify.app/
+My project Live site link https://digital-learning-platform-123.netlify.app/
 
 ## Success Of this Website
 
