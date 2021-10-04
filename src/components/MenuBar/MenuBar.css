@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+
+.nav-bg{
+    background-color: rgba(165, 109, 109, 0.24);
+    color: white;
+}
+.nv{
+    height: 50px;
+    text-decoration: none;
+    color: black;
+}
+.nav-logo{
+    color: rgb(129, 2, 141);
+    margin-left: 600px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
