@@ -7,6 +7,7 @@ import './Service.css'
 const Services = () => {
     const [services, setServices] = useState([])
 
+    // load fakeData ------
     useEffect(() => {
         fetch('./fakeDetails.JSON')
             .then(res => res.json())
@@ -15,12 +16,14 @@ const Services = () => {
     return (
         <div>
             <MenuBar></MenuBar>
+
+            {/* creating card for all services  */}
             <div className='service-bg'>
                 <h1 className='text-center pt-3 fs-1' style={{
                     fontFamily: 'Satisfy',
                     color: 'Black'
                 }}>EXPLORING MORE SERVICES</h1>
-                <h5 className='text-center  ' style={{
+                <h5 className='text-center' style={{
                     fontFamily: 'Satisfy',
                     color: 'blue'
                 }}>ENJOY IT</h5>
@@ -48,9 +51,9 @@ const Services = () => {
                                 <div>
                                     <button className='btn btn-outline-success cust-btn'><span className="fw-bolder">Enroll Now</span></button>
                                 </div>
-                                <Link to={`/services/${service.id}`}>
+                                <div >
                                     <button className='btn my-3 btn-outline-success cust-btn'><span className="fw-bolder">See More Details</span></button>
-                                </Link>
+                                </div>
                             </div>
                         </div>)
                     }

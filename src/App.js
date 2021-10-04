@@ -16,6 +16,7 @@ import Error from './pages/Error/Error';
 function App() {
   return (
     <div>
+      {/* Routing*/}
       <Router>
         <Switch>
           <Route exact path='/'>

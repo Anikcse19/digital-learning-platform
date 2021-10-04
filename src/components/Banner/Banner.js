@@ -3,6 +3,8 @@ import './Banner.css'
 
 const Banner = () => {
     return (
+
+        // header of the website ---
         <div className='bg'>
             <div className='heading'>
                 <h1 className='heading-bg w-75 mx-auto'>Welcome To Our Digital Platform <br />

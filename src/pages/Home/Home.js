@@ -8,6 +8,7 @@ import './Home.css'
 const Home = () => {
     const [details, setDetails] = useState([])
 
+    // load fakedata -------
     useEffect(() => {
         fetch('./fakeDetails1.JSON')
             .then(res => res.json())
@@ -17,6 +18,8 @@ const Home = () => {
         <div>
             <MenuBar></MenuBar>
             <Banner></Banner>
+
+            {/* creating card for services  */}
             <div>
                 <h2 className='text-center my-5 fs-1' style={{
                     fontFamily: 'Satisfy',

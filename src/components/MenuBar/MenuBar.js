@@ -10,6 +10,8 @@ const MenuBar = () => {
     }
     return (
         <div>
+
+            {/* Navigation bar */}
             <nav class="navbar nav-bg navbar-expand-lg ">
                 <div class="container-fluid">
 

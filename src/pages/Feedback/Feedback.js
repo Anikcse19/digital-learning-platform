@@ -15,10 +15,12 @@ const Feedback = () => {
         <div>
             <MenuBar></MenuBar>
             <div>
+
+                {/* feedback pannel */}
                 <h2 className='text-danger m-2 bg-info p-3'>What are people thinking about Us???</h2>
                 <br />
                 <br />
-                <h3 className='p-5 text-primary'><span className='fs-1'>4</span> Exclusive Reviews</h3>
+                <h3 className='p-5 text-primary'><span className='fs-1'>7</span> Exclusive Reviews</h3>
                 {
                     feedbacks.map(feedback => <div className='d-flex m-5'>
                         <img width=" 300px" src={feedback.img} alt="" />

@@ -3,6 +3,8 @@ import './Footer.css'
 
 const Footer = () => {
     return (
+
+        // footer of the site -------
         <div>
             <div className='footer-bg'>
                 <div className="row">
@@ -47,7 +49,8 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <h6 className='text-center text-white'> ALL Copyright reserved to Anik Chandra Deb</h6>
+                <h6 className='text-center text-white'> ALL ©
+                    Copyright reserved to Anik Chandra Deb</h6>
             </div>
 
         </div>
